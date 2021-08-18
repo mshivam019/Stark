@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Certificate Generator</title>
+    <style>
+        .zoom{
+           /* (150% zoom)*/
+           transform: scale(0.5);
+          margin-top: -300px;
+          margin-left: -120px;
+          position:absolute;
+        }
+        .adj{
+            margin-left:-100px;
+            position:absolute;
+        }
+        body{
+            background-color:#ADD8E6;
+        }
+        </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="adj">
+            <h1>Certificate Generator</h1>
+            <label>
+                Name:
+                <input id="name" type='text'>
+            </label>
+            <a href="#" id="download-btn">Download</a>
+            <br>
+<button id="clickme" onclick="imgChange();">Click to change certificate!</button>
+        </div>
+        <div class="zoom"()>
+            <canvas  id="canvas" height="1240px" width="1713px"></canvas>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
